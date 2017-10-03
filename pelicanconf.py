@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Helder Martins'
 SITENAME = u'helderm'
-SITEURL = 'http://helderm.xyz'
+SITEURL = ''
 
 PATH = 'content'
 
@@ -73,7 +73,7 @@ SKILLS = [
   	}
 ]
 
-PROJECT_INTRO = 'You can list your side projects or open source libraries in this section. '
+PROJECT_INTRO = 'A list of projects I worked in the past.'
 
 PROJECTS = [
 	{

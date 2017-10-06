@@ -56,7 +56,7 @@ LINKEDIN = 'helderm'
 GITHUB = 'helderm'
 TWITTER = '@heldergaray'
 
-CAREER_SUMMARY = 'I am Machine Learning M.Sc. currently working as a data scientist at Booking.com. In the past I worked mostly as a backend engineer over a wide range of domains, like backend web applications, low-level drivers for custom hardware, authentication and job scheduling systems to name a few. My thesis topic was detecting user abandoment behavior on Spotify using deep recurrent neural networks.'
+CAREER_SUMMARY = 'I am Machine Learning M.Sc. currently working as a data scientist at Booking.com. In the past I worked mostly as a backend engineer over a wide range of domains, like backend web applications, low-level drivers for custom hardware, authentication and job scheduling systems to name a few. My thesis topic was about detecting user abandoment behavior on Spotify using deep recurrent neural networks.'
 
 SKILLS = [
 	{
@@ -115,7 +115,18 @@ EXPERIENCES = [
 		'time': 'Jan 2017 - Aug 2017',
 		'company': 'Spotify AB, Stockholm SE',
 		'details': 'As a thesis project I studied churn prediction models to classify user abandonment on a music streaming service. State-of-the-art methods for this task like Logistic Regression and Random Forests were compared in terms of predictive power to a type of recurrent neural network called LSTM (Long Short-term Memory)'
-	}
+	},
+        {       'job_title': 'Software Developer (Summer Internship)',
+                'time': 'Jun 2016 - Aug 2016',
+                'company': 'Ericsson AB, Stockholm SE',
+                'details': 'At Ericsson I researched and implemented tools for better development and deployment of Ericsson’s internal applications using Docker, Jenkins and an online Java IDE called Eclipse Che.'
+        },
+        {
+                'job_title': 'Senior Software Engineer',
+                'time': 'May 2012 - Jul 2015',
+                'company': 'Terra Networks',
+                'details': 'At Terra (www.terra.com.br), an online news portal in Latin America, I was the main developer responsible for the backend applications that rendered the website and stored user information. My main project was evolving the application from a static website to dynamically generated pages suited to the user\'s interest, while keeping the infrastructure scalable to the hardware available and the throughput of the website (100k reqs/sec). I also worked on identifying and blocking brute-force attacks on the authentication subsytem and maintaining a fault tolerant job scheduler system for importing news feeds into our databases.'
+        }
 ]
 
 EDUCATIONS = [

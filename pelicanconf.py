@@ -46,7 +46,7 @@ DEFAULT_PAGINATION = 10
 NAME = 'Helder Martins'
 TAGLINE = 'Data Scientist / Software Engineer'
 PIC = 'profile.png'
-CSS_FILE = 'main-3.css'
+CSS_FILE = 'main-6.css'
 
 #sidebar links
 EMAIL = 'heldergaray@gmail.com'
@@ -65,12 +65,22 @@ SKILLS = [
    	},
   	{
   		'title': 'C / C++',
-   		'level': '80'
+   		'level': '90'
    	},
     {
   		'title': 'Java',
-  		'level': '70'
-  	}
+  		'level': '80'
+  	},
+        {       'title': 'NoSQL DBs',
+                'level': '80'
+        },
+        {       'title': 'ML Libs',
+                'level': '90'
+        },
+        {       'title': 'Google Cloud',
+                'level': '80'
+            }
+
 ]
 
 PROJECT_INTRO = 'A list of projects I worked in the past.'
@@ -108,13 +118,13 @@ EXPERIENCES = [
 		'job_title': 'Data Scientist',
 		'time': 'Nov 2017 - Present',
 		'company': 'Booking.com, Amsterdam NL',
-		'details': 'Working on understanding user behavior in the platform and also on the recommendation system.'
+		'details': 'At Booking.com I am working on understanding user behavior in the platform and also on its recommendation subsystem.'
 	},
 	{
 		'job_title': 'Data Scientist (M.Sc. Internship)',
 		'time': 'Jan 2017 - Aug 2017',
 		'company': 'Spotify AB, Stockholm SE',
-		'details': 'As a thesis project I studied churn prediction models to classify user abandonment on a music streaming service. State-of-the-art methods for this task like Logistic Regression and Random Forests were compared in terms of predictive power to a type of recurrent neural network called LSTM (Long Short-term Memory)'
+		'details': 'As a thesis project I studied churn prediction models to classify user abandonment on a music streaming service. State-of-the-art methods for this task like Logistic Regression and Random Forests were compared in terms of predictive power to a recurrent neural network called LSTM (Long Short-term Memory).'
 	},
         {       'job_title': 'Software Developer (Summer Internship)',
                 'time': 'Jun 2016 - Aug 2016',
@@ -126,6 +136,24 @@ EXPERIENCES = [
                 'time': 'May 2012 - Jul 2015',
                 'company': 'Terra Networks',
                 'details': 'At Terra (www.terra.com.br), an online news portal in Latin America, I was the main developer responsible for the backend applications that rendered the website and stored user information. My main project was evolving the application from a static website to dynamically generated pages suited to the user\'s interest, while keeping the infrastructure scalable to the hardware available and the throughput of the website (100k reqs/sec). I also worked on identifying and blocking brute-force attacks on the authentication subsytem and maintaining a fault tolerant job scheduler system for importing news feeds into our databases.'
+        },
+        {
+                'job_title': 'Software Engineer',
+                'time': 'Feb 2010 - May 2012',
+                'company': 'T&T Engineers (outsourced to Hewlett-Packard)',
+                'details': 'At T&T I implemented the locality-optimized resource alignment algorithm for HP\'s Superdome 2 blade servers, an ANSI-C software that automatically allocates memory and CPU resources in a blade server as to minimize the physical distance between the components. I also maintained its command-line interface.'
+        },
+        {
+                'job_title': 'Software Engineer',
+                'time': 'Oct 2008 - Feb 2010',
+                'company': 'CWI Software',
+                'details': 'At CWI I developed RESTful APIs for online payments in ANSI-C, job schedulers in Java and a file system organizer for a DNS server in ANSI-C.'
+        },
+        {
+                'job_title': 'Software Developer Intern',
+                'time': 'Mar 2007 - Oct 2008',
+                'company': 'Direcao Data Processing',
+                'details': 'At Direcao I maintained and optimized a Point of Sale Terminal (POST) software in ANSI-C for supermarkets and retail stores.'
         }
 ]
 
